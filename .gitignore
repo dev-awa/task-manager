@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Data files
+tasks.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
