@@ -14,11 +14,13 @@ from models.task import Task
 task = Task("Buy milk")
 print(f"Task created: {task.title}")
 print(f"Status: {task.status}")
+print(f"Created at: {task.created_at}")     # New
 
 # Test 2: Create task with description
 task2 = Task("Read book", "Finish chapter 3")
 print(f"Task created: {task2.title}")
 print(f"Description: {task2.description}")
 print(f"Status: {task2.status}")
+print(f"Created at: {task2.created_at}")    # New
 
 print("\nAll tests passed!")
