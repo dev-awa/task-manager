@@ -329,11 +329,14 @@ This project is licensed under the **MIT License** - see the [LICENSE](https://g
 
 ---
 
-⭐ Support This Project
+## ⭐ Support This Project
 
-If you find this project useful, please consider giving it a star ⭐ on GitHub! It helps others discover it and motivates further development.
+If you find this project useful, please consider giving it a star ⭐ on GitHub!  
+It helps others discover it and motivates further development.
 
-https://img.shields.io/github/stars/dev-awa/task-manager.svg
+[![GitHub stars](https://img.shields.io/github/stars/dev-awa/task-manager.svg)](https://github.com/dev-awa/task-manager)
+
+[⭐ Click here to star this project on GitHub](https://github.com/dev-awa/task-manager)
 
 ---
 
