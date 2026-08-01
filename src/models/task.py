@@ -27,13 +27,13 @@ class Task:
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
 
-    # NEW: Mark task as done
+    # Mark task as done
     def mark_done(self):
         """Mark task as done"""
         self.status = "DONE"
         self.updated_at = datetime.now()    # Update the timestamp
     
-    #NEW: Convert to dictionary
+    # Convert to dictionary
     def to_dict(self):
         """Convert task to dictionary for saving"""
         return {
