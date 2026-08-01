@@ -38,9 +38,9 @@ def list_tasks():
     for i, task in enumerate(tasks, 1):
         # Status with color/emoji
         status_map = {
-            "TODO": "desert watch TODO",
-            "DOING": "refresh DOING",
-            "DONE": "tick DONE"
+            "TODO": "⏳ TODO",
+            "DOING": "🔄 DOING",
+            "DONE": "✅ DONE"
         }
         status = status_map.get(task.get("status", "TODO"), "? UNKNOWN")
         
@@ -50,7 +50,7 @@ def list_tasks():
         if task.get("description"):
             print(f"    Description: {task['description']}")
 
-        print(f"    Created: {task['created_at'][:10]}")
+        print(f" 📅 Created: {task['created_at'][:10]}")
         print("-" * 60)
 
 def complete_task(index):
@@ -93,7 +93,7 @@ def delete_task(index):
     file_service.save_tasks(tasks)
     print(f"Task deleted: {deleted['title']}")
 
-# NEW: Show help
+# Show help
 def show_help():
     """Show all available commands"""
     print("""

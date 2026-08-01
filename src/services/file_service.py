@@ -26,7 +26,7 @@ def load_tasks():
     print(f"Loaded {len(tasks)} tasks from {TASKS_FILE}")
     return tasks
 
-# NEW: Add a task
+# Add a task
 def add_task(task_dict):
     """
     Add a new task to storage
@@ -42,12 +42,12 @@ def add_task(task_dict):
     save_tasks(tasks)
     print(f"Added task: {task_dict['title']}")
 
-# NEW: Get all tasks
+# Get all tasks
 def get_all_tasks():
     """Get all tasks from storage"""
     return load_tasks()
 
-# NEW: Delete all tasks (for testing)
+# Delete all tasks (for testing)
 def clear_all_tasks():
     """Delete all tasks"""
     if os.path.exists(TASKS_FILE):
